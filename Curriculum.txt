@@ -1,0 +1,7 @@
+1. Array ==> Done
+2.Loops ===> Done
+3. function ==> Done
+4. Array method ==> Done
+5. Object =====> In Progress
+
+
