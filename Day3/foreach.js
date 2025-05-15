@@ -18,11 +18,13 @@ tasks.forEach(function(task){
 )
 
 let names = ["John", "Jane", "Jack", "Jill"];
-
+let count = 0;
 names.forEach(function(name){
     name = name.toUpperCase();
-    console.log(name);
-    console.log(name.toUpperCase()); 
+    count +=1;
+
+    console.log(`${count}: ${name}`); 
+   
 }
 )
 
