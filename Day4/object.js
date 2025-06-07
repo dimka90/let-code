@@ -1,3 +1,4 @@
+
 const Person = {
   name: "Dimka",
   age: 50,
@@ -23,6 +24,7 @@ const Person = {
   },
 };
 
+
 const Phone = {
   name: "Redmi",
   color: "Black",
@@ -30,6 +32,10 @@ const Phone = {
   processorSpeed: "3.10",
   batteryCapacity: "3000MAh",
   phone_brand: ["Redmi", "itel", "Infix"],
+  version :{
+    version1: "2018",
+    version2: "2019"
+  }
 };
 
 let phone = [
@@ -39,5 +45,9 @@ let phone = [
   {
     name: "john doe",
     tribe: "England",
+  },
+  {
+    name: "Emma",
+    tribe: "North Korea",
   },
 ];

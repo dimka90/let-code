@@ -1,5 +1,6 @@
 
 // Array to hold local government area
+
 let local_goverment =[
     "Kanke",
     "Pankshin",
@@ -51,11 +52,14 @@ counter(increment/decremt)
 }
 
 */
-function printArrayElement(yilkime){
-    let len = yilkime.length;
+function printArrayElement(array){
+    let len = array.length;
     let i = 0;
 
+    // for(let i =0; i<array.length; i++){
+    //  console.log(array[i]);
+    // }
     while (i < len){
-        console.log(yilkime[i]);
+        console.log(array[i]);
     }
 }

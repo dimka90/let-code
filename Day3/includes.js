@@ -2,6 +2,5 @@
 
 const colors = ["Red", "Blue", "Green"]
 
-console.log(colors.includes("red"))
-
+console.log(colors.includes("Red"))
 

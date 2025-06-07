@@ -16,4 +16,4 @@ let animals = ["lion", "Elephant", "Dog", "Goat", "Cat", "hen"]
 
 let animals2 = ["lion", "Elephant", "Dog", "Goat", "Cat", "hen"]
 
-console.log(animals2.slice(-6))
+console.log(animals2.slice(-2))

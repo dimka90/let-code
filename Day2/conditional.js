@@ -18,6 +18,8 @@ function withdraw_cash(user_input_pin, amount){
         console.log("You entered the wrong pin or insuffient balance")
     }
 }
+
+
 function withdraw_cash(user_input_pin, amount){
     if (user_input_pin === user_save_pin && amount < balance){
             balance -= amount
